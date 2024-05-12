@@ -1,0 +1,119 @@
+/* chatApp.css */
+
+/* Reset default margin and padding */
+body, h1, ul, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling to the container */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style the header */
+.container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style the user list */
+#userlist {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+#userlist li {
+  margin-bottom: 10px;
+}
+
+/* Style the chat messages section */
+.chat-messages {
+  margin-bottom: 20px;
+}
+
+.chat-messages h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#message-list {
+  list-style-type: none;
+}
+
+#message-list li {
+  margin-bottom: 10px;
+}
+
+/* Style the chat form container */
+.chat-form-container {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute; /* Add absolute positioning */
+  bottom: 20px; /* Adjust bottom value as per your preference */
+  width: 80%;
+}
+
+#chat-form {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+#msg {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  margin-right: 10px;
+}
+
+#add-chat {
+  padding: 10px 20px;
+  background-color: #031d3b;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Style the Leave Chat button */
+#log {
+  margin-bottom: 20px;
+}
+#log{
+  padding: 10px 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  float:right;
+}
+#group-chat{
+  padding: 5px 5px;
+  background-color: #5f0d0d;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  
+}
+#my-button-id{
+  
+  background-color: #f33d06;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+#group-name{
+  float:right;
+  color: #f33d06;
+}
